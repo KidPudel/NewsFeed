@@ -1,7 +1,7 @@
 package com.iggydev.newsfeed.domain.irepositories
 
-import com.iggydev.newsfeed.domain.models.Article
+import com.iggydev.newsfeed.domain.models.NewsFeed
 
 interface INewsRepository {
-    suspend fun getAppleNews(): List<Article>?
+    suspend fun getAppleNews(): NewsFeed
 }
