@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ArticleCard" parent="CardView">
+        <item name="cardElevation">15dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">150dp</item>
+    </style>
+
+    <style name="ImageFrame" parent="CardView">
+        <item name="cardCornerRadius">10dp</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">75dp</item>
+    </style>
+
+    <style name="ImageCard" parent="CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">75dp</item>
+    </style>
+</resources>
